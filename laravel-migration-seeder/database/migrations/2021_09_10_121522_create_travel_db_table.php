@@ -22,8 +22,7 @@ class CreateTravelDbTable extends Migration
             $table->integer('duration');
             $table->date('departure');
             $table->date('arrive');
-            $table->string('boarding airport', 255);
-            $table->double('price', 3, 2);
+            $table->string('boarding_airport', 255);
             $table->timestamps();
         });
     }
