@@ -20,6 +20,10 @@
             <h2>{{$travel->boarding_airport}}</h2>
         </div>
     @endforeach
+
+    <hr>
+
+    @dump($travelFiltrati)
     
 </body>
 </html>
